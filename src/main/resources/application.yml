@@ -1,0 +1,16 @@
+server:
+  port: 9091
+  http2:
+    enabled: true
+
+spring:
+  application:
+    name: learn-graphql-java
+
+
+graphql:
+  playground:
+    enabled: true
+    mapping: /playground
+    endpoint: /graphql
+    subscriptionEndpoint: /subscriptions
